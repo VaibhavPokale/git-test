@@ -1,75 +1,28 @@
-/* General Reset */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body Styling */
+/* styles.css */
 body {
+    /* Set a gradient background from purple to teal */
+    background: linear-gradient(to right, #6a3093, #a044ff, #5f2c82, #49a09d);
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f9;
-    color: #333;
-    padding: 20px;
-}
-
-/* Header Styling */
-header {
-    background-color: #0077cc;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 2.5rem;
-}
-
-/* Navigation Bar */
-nav ul {
-    list-style: none;
+    /* Sets a clean, modern font for the body text */
+    color: white;
+    /* Sets the text color to white for better contrast */
+    margin: 0;
+    /* Removes default margin */
+    padding: 0;
+    /* Removes default padding */
     display: flex;
+    /* Enables flexbox layout */
     justify-content: center;
-    margin: 20px 0;
+    /* Centers content horizontally */
+    align-items: center;
+    /* Centers content vertically */
+    height: 100vh;
+    /* Makes the body take the full height of the viewport */
 }
 
-nav ul li {
-    margin: 0 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #0077cc;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Footer Styling */
-footer {
+h1 {
+    font-size: 2em;
+    /* Sets the size of the header text */
     text-align: center;
-    margin-top: 20px;
-    color: #555;
-}
-
-/* Responsive Media Query */
-@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-
-    header h1 {
-        font-size: 2rem;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin: 5px 0;
-    }
+    /* Centers the header text */
 }
